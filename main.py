@@ -1,7 +1,7 @@
 def sum_list(l):
   s = 0
-  
-  # Write your logic here
-  
+  for i in l:
+    for j in i:
+      s+=int(j)
   return s
 
